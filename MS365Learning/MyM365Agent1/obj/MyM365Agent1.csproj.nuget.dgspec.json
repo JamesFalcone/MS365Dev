@@ -1,0 +1,113 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\JSF\\GITHUB\\MS365Dev\\MS365Learning\\MyM365Agent1\\MyM365Agent1.csproj": {}
+  },
+  "projects": {
+    "D:\\JSF\\GITHUB\\MS365Dev\\MS365Learning\\MyM365Agent1\\MyM365Agent1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\JSF\\GITHUB\\MS365Dev\\MS365Learning\\MyM365Agent1\\MyM365Agent1.csproj",
+        "projectName": "MyM365Agent1",
+        "projectPath": "D:\\JSF\\GITHUB\\MS365Dev\\MS365Learning\\MyM365Agent1\\MyM365Agent1.csproj",
+        "packagesPath": "C:\\Users\\James.Falcone\\.nuget\\packages\\",
+        "outputPath": "D:\\JSF\\GITHUB\\MS365Dev\\MS365Learning\\MyM365Agent1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\James.Falcone\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/jsfalcone/JSF3D.C4T/_packaging/jsf3dNuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AdaptiveCards": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.13.2, )"
+            },
+            "Microsoft.Agents.Authentication.Msal": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Microsoft.Agents.Hosting.AspNetCore": {
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "Microsoft.SemanticKernel.Agents.AzureAI": {
+              "target": "Package",
+              "version": "[1.45.0-preview, )"
+            },
+            "Microsoft.SemanticKernel.Agents.Core": {
+              "target": "Package",
+              "version": "[1.45.0, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.AzureOpenAI": {
+              "target": "Package",
+              "version": "[1.45.0, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.OpenAI": {
+              "target": "Package",
+              "version": "[1.45.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
